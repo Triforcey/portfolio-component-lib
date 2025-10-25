@@ -1,4 +1,5 @@
 @layer theme, base, components, utilities;
 
+/* Import only the theme and utilities layers, for minimal bundle size and non-intrusive styles */
 @import "tailwindcss/theme.css" layer(theme) prefix(pcl);
 @import "tailwindcss/utilities.css" layer(utilities) prefix(pcl);
