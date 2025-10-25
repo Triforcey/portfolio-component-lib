@@ -3,3 +3,15 @@
 /* Import only the theme and utilities layers, for minimal bundle size and non-intrusive styles */
 @import "tailwindcss/theme.css" layer(theme) prefix(pcl);
 @import "tailwindcss/utilities.css" layer(utilities) prefix(pcl);
+
+/* Custom color theme */
+@theme {
+  --color-primary: #AE00FF;
+  --color-primary-dark: #6B3F7F;
+  --color-background-dark: #030051;
+  --color-background-light: #FFFEE8;
+  --color-accent-gold: #FFD000;
+  --color-accent-gold-muted: #CFB957;
+  --color-accent-lime: #C4FF00;
+  --color-accent-lime-muted: #AFD153;
+}

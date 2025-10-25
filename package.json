@@ -41,8 +41,13 @@
   },
   "sideEffects": false,
   "exports": {
-    "import": "./dist/index.es.js",
-    "require": "./dist/index.cjs.js"
-  },
-  "types": "dist/index.d.ts"
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.es.js"
+    },
+    "require": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.cjs.js"
+    }
+  }
 }

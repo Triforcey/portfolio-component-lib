@@ -16,6 +16,7 @@ export default defineConfig({
     dts({
       tsconfigPath: 'tsconfig.app.json',
       include: ['src/components'],
+      exclude: ['src/components/**/*.stories.{tsx,ts}', 'src/components/**/*.test.{tsx,ts}', 'src/components/**/*.d.ts'],
     })
   ],
   build: {
