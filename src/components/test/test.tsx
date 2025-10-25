@@ -1,3 +1,5 @@
+import '@/global.css';
+
 export const Test = () => {
-  return <div>Test</div>;
+  return <div className="pcl:text-red-500">Test</div>;
 };
