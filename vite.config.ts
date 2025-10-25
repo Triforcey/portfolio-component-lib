@@ -8,4 +8,10 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  build: {
+    lib: {
+      entry: 'src/components/index.ts',
+      formats: ['es', 'cjs'],
+    },
+  },
 });
